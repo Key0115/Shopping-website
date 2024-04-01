@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+    
+.cell{
+    padding:20px;
+    border:1.5px solid black;
+    width: 500px;
+    display: flex;
+    margin: 20px;
+    max-width: 100%;
+
+}
+.cell-img{
+    width:300px;
+    height:300px;
+    margin: 0px 30px;
+    border: 3px solid black;
+}
+.container-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-text p{
+    margin: 5px;
+}
+
+.container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+}
+
+nav input[type=text]{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+nav{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+nav input[name=searchType]{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+nav input[name=searchSoft]{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+nav input[name=searchOrigin]{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+nav input[name=searchPrice]{
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+#icon{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+article{
+    display: flex;
+    justify-content: end;
+    background-color: bisque;
+}
+main{
+    margin: 70px 0px;
+}
+
+.title{
+    text-align: center;
+}
+
+@media (width < 800px){
+    .container{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+
+
